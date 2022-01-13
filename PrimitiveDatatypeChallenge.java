@@ -1,3 +1,5 @@
+//To check different primitive datatypes.
+
 public class PrimitiveDatatypeChallenge {
     public static void main(String[] args) {
         byte MyByteValue = 100;
