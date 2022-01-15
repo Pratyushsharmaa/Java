@@ -3,7 +3,8 @@
 public class interestCalculator {
     public static void main(String[] args) {
         for(int i=2;i<=8;i++){
-            System.out.println("Interest for 10000 at " + i + "% interest is " + interestCalculator(10000,i));
+            System.out.println("Interest for 10000 at " + i + "% interest is " + String.format("%.2f",interestCalculator(10000,i)));
+            //%.2f ensures output is with two decimal places in float.
 
         }
     }
