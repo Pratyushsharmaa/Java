@@ -1,9 +1,0 @@
-//main class to check the output
-public class main {
-    public static void main(String[] args) {
-       long miles = speedConverter.toMilesPerHour(10.5);
-       //if we don't do 'long miles =' it won't print output
-        System.out.println("Miles = " + miles);
-        speedConverter.printConversion(10.5); //No sout because printConversion method is void
-    }
-}
